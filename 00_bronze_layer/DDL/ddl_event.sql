@@ -1,6 +1,6 @@
 CREATE SCHEMA IF NOT EXISTS workspace.bronze_layer;
 
--- Create the item table
+-- Create the event table
 CREATE TABLE IF NOT EXISTS workspace.bronze_layer.bronze_event (
   event_id STRING,
   event_time STRING,
